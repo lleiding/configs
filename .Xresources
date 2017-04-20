@@ -68,20 +68,9 @@
 ! rxvt-unicode 
 !---------------------------------------------------------------
 
-!URxvt*font:              -*-gohufont-medium-*-*-*-14-*-*-*-*-*-iso10646-1
-!URxvt*boldFont:          -*-gohufont-bold-*-*-*-14-*-*-*-*-*-iso10646-1
-
-URxvt*font:               -*-terminus-medium-r-normal-*-14-*-*-*-*-*-iso10646-1
-URxvt*boldFont:           -*-terminus-bold-r-normal-*-14-*-*-*-*-*-iso10646-1
-
-!URxvt*font:               xft:Terminus:pixelsize=12
-!URxvt*boldFont:           xft:Terminus:pixelsize=12
-
-!URxvt*font:               -*-dina-medium-r-normal-*-13-*-*-*-*-*-*-*
-!URxvt*boldFont:           -*-dina-bold-r-normal-*-13-*-*-*-*-*-*-*
-
-!urxvt*font: xft:inconsolata:pixelsize=14:antialias=true:hinting=true
-!urxvt*boldFont: xft:inconsolata:bold:pixelsize=14:antialias=true:hinting=true
+URxvt*font:               xft:Source Code Pro:pixelsize=13
+URxvt*boldFont:           xft:Source Code Pro:bold:pixelsize=13
+URxvt*letterSpace:	  -1
 
 !urxvt*font: xft:DejaVu Sans Mono:pixelsize=12:antialias=true:hinting=true
 !urxvt*boldFont: xft:DejaVu Sans Mono:bold:pixelsize=12:antialias=true:hinting=true
@@ -91,7 +80,7 @@ urxvt*geometry:           169x53
 !internal whitespace
 urxvt*internalBorder:     0
 !fade text n% upon unfocus
-urxvt*fading:             60
+!urxvt*fading:             60
 !darken=(0 to 100) lighten=(-1 to -100)
 urxvt*shading:            0
 !tint background with this color
@@ -114,8 +103,9 @@ urxvt*scrollBar:          true
 urxvt*scrollstyle:        plain
 !scrollbar alignment
 urxvt*scrollBar_right:    true
-urxvt*scrollColor:        #777777
-urxvt*cursorColor:	  #1793d1
+urxvt*scrollColor:        S_base1 
+!#777777
+!urxvt*cursorColor:	  #1793d1
 !!6f6fff
 !is this a login shell?
 urxvt*loginShell:         true
@@ -136,7 +126,7 @@ urxvt*utmpInhibit:        true
 !! BEGIN urlLauncher settings !!
 urxvt*perl-lib:           /usr/lib/urxvt/perl/
 urxvt*perl-ext-common:    default,matcher
-urxvt*url-launcher:        /usr/bin/chromium
+urxvt*url-launcher:        /usr/bin/firefox
 urxvt*matcher.button:     1
 !! END urlLauncher settings !!
 
