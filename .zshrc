@@ -11,7 +11,7 @@ zstyle :compinstall filename '/home/ludwig/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-source  ~/powerlevel9k/powerlevel9k.zsh-theme
+source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 
 DEFAULT_USER="ludwig"
 POWERLEVEL9K_COLOR_SCHEME='light'
