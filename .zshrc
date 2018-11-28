@@ -7,6 +7,7 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/ludwig/.zshrc'
+zstyle ':completion:*' menu select
 
 autoload -Uz compinit
 compinit
