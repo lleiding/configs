@@ -25,6 +25,7 @@ zle -N history-beginning-search-forward-end history-search-end
 bindkey "^[[A" history-beginning-search-backward-end
 bindkey "^[[B" history-beginning-search-forward-end
 
+alias emacs='emacs -nw'
 alias ls='ls --color=auto'
 alias aus='sudo shutdown now'
 alias update='sudo pacman -Syyu'
