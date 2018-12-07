@@ -27,6 +27,13 @@ zle -N history-beginning-search-forward-end history-search-end
 bindkey "^[[A" history-beginning-search-backward-end
 bindkey "^[[B" history-beginning-search-forward-end
 
+bindkey "${terminfo[khome]}" beginning-of-line
+bindkey "${terminfo[kend]}" end-of-line
+bindkey "^[[3~" delete-char
+bindkey "^[On"  delete-char-num
+bindkey "^[Od"  backward-word
+bindkey "^[Oc"  forward-word
+
 alias emacs='emacs -nw'
 alias ls='ls --color=auto'
 alias aus='sudo shutdown now'
