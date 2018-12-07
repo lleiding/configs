@@ -33,7 +33,9 @@ bindkey "^[[3~" delete-char
 bindkey "^[On"  delete-char-num
 bindkey "^[Od"  backward-word
 bindkey "^[Oc"  forward-word
-
+bindkey "^H" backward-delete-word
+bindkey "^[[3^" delete-word
+   
 alias emacs='emacs -nw'
 alias ls='ls --color=auto'
 alias aus='sudo shutdown now'
