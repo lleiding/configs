@@ -9,16 +9,16 @@
  '(custom-safe-themes
    (quote
     ("8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default)))
- '(frame-background-mode (quote light)) ;; controls dark and light solarized themes
+ '(frame-background-mode (quote light))
  '(package-selected-packages (quote (julia-repl ess color-theme-solarized)))
- '(tool-bar-mode nil)
- '(menu-bar-mode nil))
+ '(menu-bar-mode nil)
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Hack" :foundry "PfEd" :slant normal :weight normal :height 98 :width normal)))))
+ '(default ((t (:family "Fira Mono" :foundry "CTDB" :slant normal :weight normal :height 102 :width normal)))))
 ;;(custom-set-faces (if (not window-system) '(default ((t (:background "nil"))))))
 (require 'package) ;; You might already have this line
 (add-to-list 'package-archives
