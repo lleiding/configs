@@ -9,8 +9,12 @@ bindkey -e
 zstyle :compinstall filename '/home/ludwig/.zshrc'
 zstyle ':completion:*' menu select
 
-autoload -Uz compinit
+autoload -Uz compinit promptinit
 compinit
+promptinit
+
+prompt redhat
+
 # End of lines added by compinstall
 
 DEFAULT_USER="ludwig"
@@ -18,7 +22,7 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir root_indicator vcs background_job
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()#(status command_execution_time vcs root_indicator background_jobs)
 POWERLEVEL9K_COLOR_SCHEME='light'
 
-source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
+#source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 
 # You can additionally have the cursor placed at the end of the line once you have selected your desired command from zsh's history by using the history-search-end function (typically located in /usr/share/zsh/functions/Zle/) and appending -end to the end of each line, like so:
 autoload -U history-search-end
