@@ -41,8 +41,9 @@ bindkey "^H" backward-delete-word
 bindkey "^[[3^" delete-word
    
 alias emacs='emacs -nw'
+alias vpngw='sudo openconnect vpngw.uni-wuerzburg.de'
 alias ls='ls --color=auto'
-alias aus='sudo shutdown now'
+alias aus='systemctl poweroff'
 alias update='sudo pacman -Syyu'
 alias cal='cal -w --color'
 alias gist='git status'
@@ -50,3 +51,4 @@ alias gicm='git commit -m'
 alias gihk='git checkout'
 
 ttyctl -f
+
