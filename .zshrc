@@ -38,7 +38,7 @@ bindkey "^[[3^" delete-word
    
 alias emacs='emacs -nw'
 alias ls='ls --color=auto'
-alias aus='sudo shutdown now'
+alias aus='systemctl poweroff'
 alias update='sudo pacman -Syyu'
 alias cal='cal -w --color'
 alias gist='git status'
