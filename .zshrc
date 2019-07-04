@@ -9,11 +9,12 @@ bindkey -e
 zstyle :compinstall filename '/home/ludwig/.zshrc'
 zstyle ':completion:*' menu select
 
-autoload -Uz compinit promptinit
+autoload -Uz compinit #promptinit
 compinit
-promptinit
+#promptinit
 
-prompt redhat
+#prompt redhat
+PS1="%{%F{red}%}%n%{%f%}@%{%F{blue}%}%m:%{%F{yellow}%}%~%{$%f%} "
 
 # End of lines added by compinstall
 
