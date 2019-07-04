@@ -14,7 +14,7 @@ compinit
 #promptinit
 
 #prompt redhat
-PS1="%{%F{red}%}%n%{%f%}@%{%F{blue}%}%m:%{%F{yellow}%}%~%{$%f%} "
+PS1="%{%F{red}%}%n%{%f%}@%{%F{blue}%}%m:%{%F{yellow}%}%~%{%f%}$ "
 
 # End of lines added by compinstall
 
