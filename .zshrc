@@ -40,7 +40,7 @@ bindkey "^[Oc"  forward-word
 bindkey "^H" backward-delete-word
 bindkey "^[[3^" delete-word
    
-alias emacs='emacs -nw'
+# alias emacs='emacs -nw'
 alias vpngw='sudo openconnect vpngw.uni-wuerzburg.de'
 alias ls='ls --color=auto'
 alias aus='systemctl poweroff'
